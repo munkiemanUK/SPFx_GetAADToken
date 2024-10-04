@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "get-aad-token-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/getAadToken/GetAadTokenWebPart.js",
+          "manifest": "./src/webparts/getAadToken/GetAadTokenWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GetAadTokenWebPartStrings": "lib/webparts/getAadToken/loc/{locale}.js"
+  }
+}
